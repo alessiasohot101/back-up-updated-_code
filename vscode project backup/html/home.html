@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Lesson</title>
+    <link rel="stylesheet" href="/CSS/home.css">
+</head>
+
+<body>
+    <div class="container">
+        <label>
+            <input type="text" autocomplete="off" name="firstname" class="input" placeholder="First Name" id="firstname">
+        </label>
+
+        <label>
+            <input type="text" autocomplete="off" name="lastname" class="input" placeholder="Last Name" id="lastname">
+        </label>
+
+        <label>
+            <input type="text" autocomplete="off" name="age" class="input" placeholder="Age" id="age">
+        </label>
+
+        <label>
+            <input type="date" name="birthday" class="input" id="birthday">
+        </label>
+
+        <label>
+            <input type="text" autocomplete="off" name="course" class="input" placeholder="Course" id="course">
+        </label>
+
+        <label>
+            <select name="gender" class="input" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </label>
+
+        <label>
+            <input type="text" autocomplete="off" name="worklocation" class="input" placeholder="Work Location" id="worklocation">
+        </label>
+
+        <!-- Add button for adding a user -->
+        <button type="submit" id="add-user">Add User</button>
+
+     
+
+        <!-- Hidden input field to store document ID for updates -->
+        <input type="hidden" id="document">
+
+        <!-- Add button for updating a user -->
+        <button type="button" id="update-user">Update User</button>
+
+        <!-- Add button for deleting a user -->
+        <button type="button" id="delete-user">Delete User</button>
+
+         <!-- Log Out button -->
+         <button type="button" id="log-out">Log Out</button>
+        
+
+    </div>
+    <script type="module" src="/JAVA SCRIPT/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+/* Styles for form container */
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for form title */
+.title {
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styles for form message */
+.message {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styles for flex container */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Styles for labels */
+.form label {
+    flex: 1;
+    position: relative;
+    margin-bottom: 10px; /* Add margin to separate labels */
+}
+
+/* Styles for input fields with adjusted width */
+.input {
+    width: 100%; /* This sets the input width to 100% of its container */
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 300ms ease-in-out, transform 300ms ease-in-out, box-shadow 300ms ease-in-out;
+    margin-bottom: 10px; /* Add margin to separate input fields */
+}
+
+/* Styles for focused input fields */
+.input:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+}
+
+/* Styles for the submit button */
+button {
+    background-color: white;
+    color: black;
+    border-radius: 11111em;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 0px solid black;
+    box-shadow: 0 0 0 0 black;
+}
+
+button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 2px 0 0 black;
+}
+
+button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+}
+
+/* Styles for the sign-in link */
+.signin {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signin a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+.signin a:hover {
+    text-decoration: underline;
+}

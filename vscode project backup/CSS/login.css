@@ -1,0 +1,135 @@
+/* Reset some default styles for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Container styles for centering the content */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(1, 1, 1, 0.1);
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Login form container */
+.login_form_container {
+    margin-top: 20px;
+}
+
+/* Login form styles */
+.login_form {
+    text-align: center;
+}
+
+.login_form h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Input field styles */
+.input_group {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.input_group i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 300ms ease-in-out;
+}
+
+.input:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+}
+
+/* Styles for the submit button */
+button {
+    background-color: white;
+    color: black;
+    border-radius: 11111em;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 0px solid black;
+    box-shadow: 0 0 0 0 black;
+}
+
+button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 2px 0 0 black;
+}
+
+button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0d141b;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Styles for signup and forgot password links */
+.footer a.signup {
+    color: #007bff;
+    margin-top: 10px;
+}
+
+.footer a.forgot-password {
+    color: #ff6b6b;
+    margin-top: 10px;
+}
+
+.footer a.signup:hover {
+    text-decoration: underline;
+}
+
+.footer a.forgot-password:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISU Cauayan City Graduates Mapping</title>
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="/CSS/login.css">
+    <!-- Link to your JavaScript file for showing password -->
+    <script type="module" src="/JAVA SCRIPT/showpass.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="/logo/isu_logo.png" alt="Error" width="100" height="100">
+            <h1>ISU Cauayan City Graduates Mapping</h1>
+        </header>
+
+        <div class="login_form_container">
+            <div class="login_form">
+                <h2>Log in</h2>
+                <form onsubmit="login(event)">
+                    <div class="input_group">
+                        <i class="fa fa-user"></i>
+                        <input type="text" autocomplete="off" name="email" class="input" placeholder="Email" id="email">
+                    </div>
+                    <div class="input_group">
+                        <i class="fa fa-unlock-alt"></i>
+                        <input type="password" autocomplete="off" name="password" class="input" placeholder="Password" id="password">
+                    </div>
+                    <div class="input_group">
+                        <input type="checkbox" id="showPasswordCheckbox" class="show-password-checkbox" />
+                        <label for="showPasswordCheckbox">Show Password</label>
+                    </div>
+                    <div class="button_group" id="login_button">
+                        <button id="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <a class="footer-link signup" href="/html/sign_up.html">Sign Up</a>
+            <span class="divider">|</span>
+            <a class="footer-link forgot-password" href="/html/resetpassword.html">Forgot Password</a>
+        </div>
+    </div>
+    <!-- Link to your JavaScript file for login -->
+    <script type="module" src="/JAVA SCRIPT/login.js"></script>
+</body>
+
+</html>
